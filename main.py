@@ -13,7 +13,7 @@ init(autoreset=True)
 status = "online"  # online/dnd/idle
 custom_status = "youtube.com/@SealedSaucer"  # Custom Status
 
-usertoken = os.getenv("TOKEN")
+usertoken = os.getenv("MTQwMDg1MDk1NjE5NDk0MzEwMA.GyNWq5.dABfhcKuxPi02REX5yDI_YMimUE8I3exQ47wjk")
 if not usertoken:
     print(f"{Fore.WHITE}[{Fore.RED}-{Fore.WHITE}] Please add a token inside Secrets.")
     sys.exit()
